@@ -5,7 +5,7 @@ Created on Sun Nov 20 09:57:15 2016
 
 @author: yang
 """
-"""
+
 f = open(r'Blowing in the wind.txt','w')
 
 f.writelines('How many roads must a man walk down\n')
@@ -25,7 +25,7 @@ f.writelines('The answer my friend is blowing in the wind\n')
 f.writelines('The answer is blowing in the wind\n')
 
 f.close()
- """
+
 g = open(r'Blowing in the wind.txt','r')
 
 songs = g.readlines()
